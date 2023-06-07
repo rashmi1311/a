@@ -1,0 +1,13 @@
+GET http://localhost:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlcjEiLCJpYXQiOjE2ODQyMTM2NDksImV4cCI6MTY4NDIxMzY3OX0.joQ5_jTvFsPvpdfDh5iScGQkqVXcF2R_hrkng4hAxkg
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "user1"
+}
+
+# download REST client
